@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<link href="bootstrap.min.css" rel="stylesheet" >
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	<body>
+		<nav>
+			<ul class="sidebar">
+				<li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="skill.html">SKILLS</a></li>
+				<li><a href="project.html">PROJECT</a></li>
+				<li><a href="about.html">ABOUT ME</a></li>
+			</ul>
+			<ul>
+				<li><a href="#"></a></li>
+				<li class="hideOnMobile"><a href="home.html">HOME</a></li>
+				<li class="hideOnMobile"><a href="skill.html">SKILLS</a></li>
+				<li class="hideOnMobile"><a href="project.html">PROJECT</a></li>
+				<li class="hideOnMobile"><a href="about.html">ABOUT ME</a></li>
+				<li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+			</ul>
+		</nav>
+		<script>
+			function showSidebar(){
+				const sidebar = document.querySelector('.sidebar')
+				sidebar.style.display = 'flex'
+			}
+			function hideSidebar(){
+				const sidebar = document.querySelector('.sidebar')
+				sidebar.style.display = 'none'
+			}
+		</script>
+		<section class="container">
+			<div class="slider-wrapper">
+				<div class="slider">
+					<img id="slide-1" src="G:\RESUME\DATA\slider\1.jpg">
+					<img id="slide-2" src="G:\RESUME\DATA\slider\2.jpg">
+					<img id="slide-3" src="G:\RESUME\DATA\slider\3.jpg">
+					<img id="slide-4" src="G:\RESUME\DATA\slider\4.jpg">
+				</div>
+				<div class="slider-nav">
+					<a href="#slide-1"></a>
+					<a href="#slide-2"></a>
+					<a href="#slide-3"></a>
+					<a href="#slide-4"></a>
+				</div>
+			</div>
+		</section>
+		<center>
+		<div>
+		
+			<footer class="bg-dark text-white" style="margin-top: 85px;">
+  <div class="container">
+    <div class="col-medium-12">
+        
+		<p class="copyright text-center">Copyright &copy;Dhruv Mevada</p>
+        <p class="text-center"><a href="privacy.html" class="text-white">Privacy Policy</a></p>
+        <p class="text-center"><a href="contact.html" class="text-white">Contact Us</a></p>
+    </div>
+   </div>
+  </footer>
+  </div>
+  </center>
+	</body>
+</html>

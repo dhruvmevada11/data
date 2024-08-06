@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<link href="bootstrap.min.css" rel="stylesheet" >
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	<body>
+		<nav>
+			<ul class="sidebar">
+				<li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="skill.html">SKILLS</a></li>
+				<li><a href="project.html">PROJECT</a></li>
+				<li><a href="about.html">ABOUT ME</a></li>
+			</ul>
+			<ul>
+				<li><a href="#"></a></li>
+				<li class="hideOnMobile"><a href="home.html">HOME</a></li>
+				<li class="hideOnMobile"><a href="skill.html">SKILLS</a></li>
+				<li class="hideOnMobile"><a href="project.html">PROJECT</a></li>
+				<li class="hideOnMobile"><a href="about.html">ABOUT ME</a></li>
+				<li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+			</ul>
+		</nav>
+		<script>
+			function showSidebar(){
+				const sidebar = document.querySelector('.sidebar')
+				sidebar.style.display = 'flex'
+			}
+			function hideSidebar(){
+				const sidebar = document.querySelector('.sidebar')
+				sidebar.style.display = 'none'
+			}
+		</script>
+				<div class="row">
+			<div class="col-sm-6">
+				<img src="G:\RESUME\DATA\G9\PIC\34 G9 GARBA(3).jpg" alt="img" height="400px" width="750px" style="margin: 20px 25px;">
+			</div>
+			<div class="col-sm-6">
+				<div class="mt-4 p-4">
+						<p style="font-family: cursive;">Garba (Gujarati: ગરબા) is a form of Gujarati dance which originates from the state of Gujarat, India. The name is derived from the Sanskrit term Garbha .[1] Many traditional garbas are performed around a centrally lit lamp or a picture or statue of the Hindu goddess Durga. Traditionally, it is performed during the nine-day Hindu festival Navaratri (Gujarati: નવરાત્રી, where નવ means 9, and રાત્રી means nights). Either the lamp (the Garba Deep) or an image of the Goddess, Durga (also called Amba) is placed in the middle of concentric rings as an object of veneration.!✨</p>				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+			<center>
+				<video src="G:\RESUME\DATA\G9\VIDEO\G9 DAY 1   PRATIBIMB.mp4" height="500px" width="900px" style="margin: 50px" controls autoplay loop muted>
+			</center>
+			</div>
+		</div>
+		<center>
+		<div>
+		
+			<footer class="bg-dark text-white" style="margin-top: 85px;">
+  <div class="container">
+    <div class="col-medium-12">
+        
+		<p class="copyright text-center">Copyright &copy;Dhruv Mevada</p>
+        <p class="text-center"><a href="privacy.html" class="text-white">Privacy Policy</a></p>
+        <p class="text-center"><a href="contact.html" class="text-white">Contact Us</a></p>
+    </div>
+   </div>
+  </footer>
+  </div>
+  </center>
+	</body>
+</html>
